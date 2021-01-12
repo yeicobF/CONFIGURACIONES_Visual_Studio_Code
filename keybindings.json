@@ -57,5 +57,33 @@
     {
         "key": "ctrl+shift+f4",
         "command": "workbench.action.closeEditorsAndGroup"
+    },
+    {
+        "key": "alt+k alt+a",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "alt+k alt+n",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "alt+k alt+p",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "alt+k alt+l",
+        "command": "workbench.action.focusLastEditorGroup"
+    },
+    {
+        "key": "alt+j alt+n",
+        "command": "workbench.action.joinTwoGroups"
+    },
+    {
+        "key": "alt+j alt+a",
+        "command": "workbench.action.joinAllGroups"
+    },
+    {
+        "key": "alt+k alt+j",
+        "command": "workbench.action.maximizeEditor"
     }
 ]
