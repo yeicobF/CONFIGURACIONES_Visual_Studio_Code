@@ -85,5 +85,9 @@
     {
         "key": "alt+k alt+j",
         "command": "workbench.action.maximizeEditor"
+    },
+    {
+        "key": "ctrl+c ctrl+0",
+        "command": "workbench.action.closeSidebar"
     }
 ]
