@@ -53,5 +53,9 @@
         "key": "ctrl+k ctrl+c",
         "command": "-editor.action.addCommentLine",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+f4",
+        "command": "workbench.action.closeEditorsAndGroup"
     }
 ]
