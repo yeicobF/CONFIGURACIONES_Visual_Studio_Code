@@ -1,0 +1,57 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.addRootFolder"
+    },
+    {
+        "key": "f12",
+        "command": "workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.openWorkspace"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.saveWorkspaceAs"
+    },
+    {
+        "key": "alt+k alt+right",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "alt+k alt+left",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "alt+k alt+down",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "alt+k alt+up",
+        "command": "workbench.action.splitEditorUp"
+    },
+    {
+        "key": "ctrl+shift+7",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
