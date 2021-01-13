@@ -89,5 +89,13 @@
     {
         "key": "ctrl+c ctrl+0",
         "command": "workbench.action.closeSidebar"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "ctrl+insert",
+        "command": "-editor.action.clipboardCopyAction"
     }
 ]
