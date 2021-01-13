@@ -97,5 +97,9 @@
     {
         "key": "ctrl+insert",
         "command": "-editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "ctrl+oem_comma ctrl+oem_comma",
+        "command": "workbench.action.openSettingsJson"
     }
 ]
