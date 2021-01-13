@@ -17,10 +17,10 @@
     "editor.minimap.renderCharacters": false,
     "editor.suggest.showStatusBar": true,
     "editor.wordBasedSuggestionsMode": "allDocuments",
-    "files.autoSaveDelay": 300000, // 5 segundos
+    "files.autoSaveDelay": 90000, // 1 minuto y medio (1:30 minutos) para autoguardado.
     "files.hotExit": "onExitAndWindowClose",
     "files.insertFinalNewline": true,
-    "workbench.colorTheme": "BeardedTheme Black & Gold",
+    "workbench.colorTheme": "BeardedTheme Vivid",
     "window.autoDetectHighContrast": false,
     "window.menuBarVisibility": "toggle",
     "terminal.integrated.confirmOnExit": true,
