@@ -49,5 +49,13 @@
     "terminal.integrated.fontSize": 13,
     // "terminal.integrated.fontWeight": "400"
     // Hace que el directorio de OmniSharp sea el último en donde se trabajó.
-    "omnisharp.path": "latest"
+    "omnisharp.path": "latest",
+    /** PARA DESHABILITAR Jupyter con la extensión de Python, ya que funcionan
+        en conjunto. Al parecer no funciona.
+        
+        - FUENTE: disable jupyter editor in vscode #103526
+            LINK: https: //github.com/microsoft/vscode/issues/103526*/
+    // "python.dataScience.useNotebookEditor": false,
+    /** Deshabilitar que Jupyter se inicie automáticamente. */
+    "jupyter.disableJupyterAutoStart": false
 }
