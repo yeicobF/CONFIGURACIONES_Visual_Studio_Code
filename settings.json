@@ -34,12 +34,7 @@
     "C_Cpp.vcFormat.indent.preserveComments": true,
     "C_Cpp.vcFormat.indent.preserveWithinParentheses": true,
     "C_Cpp.vcFormat.indent.caseLabels": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": [],
     "workbench.iconTheme": "vscode-icons",
     "editor.rulers": [
         80 //, 50],  // Mostrar un margen a los 80 caracteres.
@@ -57,5 +52,6 @@
             LINK: https: //github.com/microsoft/vscode/issues/103526*/
     // "python.dataScience.useNotebookEditor": false,
     /** Deshabilitar que Jupyter se inicie automáticamente. */
-    "jupyter.disableJupyterAutoStart": false
+    "jupyter.disableJupyterAutoStart": false,
+    "workbench.startupEditor": "newUntitledFile"
 }

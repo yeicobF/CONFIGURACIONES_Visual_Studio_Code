@@ -101,5 +101,45 @@
     {
         "key": "ctrl+oem_comma ctrl+oem_comma",
         "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "ctrl+t ctrl+g",
+        "command": "workbench.action.toggleEditorWidths"
+    },
+    {
+        "key": "ctrl+f ctrl+e",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "ctrl+e ctrl+n",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+p",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+l",
+        "command": "workbench.action.moveEditorToLastGroup"
+    },
+    {
+        "key": "shift+alt+9",
+        "command": "-workbench.action.moveEditorToLastGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+f",
+        "command": "workbench.action.moveEditorToFirstGroup"
+    },
+    {
+        "key": "shift+alt+1",
+        "command": "-workbench.action.moveEditorToFirstGroup"
     }
 ]
