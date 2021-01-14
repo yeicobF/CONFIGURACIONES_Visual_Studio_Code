@@ -53,5 +53,6 @@
     // "python.dataScience.useNotebookEditor": false,
     /** Deshabilitar que Jupyter se inicie automáticamente. */
     "jupyter.disableJupyterAutoStart": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
 }

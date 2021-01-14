@@ -141,5 +141,21 @@
     {
         "key": "shift+alt+1",
         "command": "-workbench.action.moveEditorToFirstGroup"
+    },
+    {
+        "key": "ctrl+c ctrl+g",
+        "command": "workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "-workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+d ctrl+s",
+        "command": "workbench.action.terminal.selectDefaultShell"
+    },
+    {
+        "key": "ctrl+m ctrl+p",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
