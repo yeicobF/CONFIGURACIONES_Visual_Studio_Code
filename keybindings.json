@@ -260,6 +260,20 @@
     {
         "key": "ctrl+c",
         "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "ctrl+o ctrl+s",
+        "command": "o.pickProjectAndStart"
+    },
+    {
+        "key": "ctrl+shift+7",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_2",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
     }
     // {
     //     "key": "ctrl+c",

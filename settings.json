@@ -3,11 +3,11 @@
     "files.autoSaveDelay": 60000, // 1 minuto y medio (1:30 minutos) para autoguardado.
     // "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontFamily": "JetBrains Mono",
-    "window.zoomLevel": -1,
-    "editor.fontSize": 14,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 12,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.autoClosingQuotes": "always",
-    "editor.codeActionsOnSave": null,
+    "editor.codeActionsOnSave": {},
     "editor.codeLensFontFamily": "JetBrains Mono",
     "editor.comments.ignoreEmptyLines": false,
     "editor.glyphMargin": false,
@@ -59,5 +59,8 @@
     "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
     "editor.minimap.enabled": true,
     // Que se sincornicen los keybindings.
-    "settingsSync.keybindingsPerPlatform": true
+    "settingsSync.keybindingsPerPlatform": true,
+    // Para que OmniSharp dure más hasta el Timeout. El default es un minuto.
+    // Le pondré 2 minutos 30 segundos.
+    "omnisharp.projectLoadTimeout": 150,
 }
