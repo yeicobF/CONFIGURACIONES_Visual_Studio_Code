@@ -63,11 +63,11 @@
         "command": "workbench.action.focusActiveEditorGroup"
     },
     {
-        "key": "alt+k alt+n",
+        "key": "ctrl+n ctrl+g",
         "command": "workbench.action.focusNextGroup"
     },
     {
-        "key": "alt+k alt+p",
+        "key": "ctrl+p ctrl+g",
         "command": "workbench.action.focusPreviousGroup"
     },
     {
@@ -171,5 +171,21 @@
         "key": "ctrl+shift+c",
         "command": "-workbench.action.terminal.openNativeConsole",
         "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+l ctrl+g",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+r ctrl+g",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+right",
+        "command": "-workbench.action.focusRightGroup"
     }
 ]
