@@ -1,6 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 90000, // 1 minuto y medio (1:30 minutos) para autoguardado.
+    "files.autoSaveDelay": 60000, // 1 minuto y medio (1:30 minutos) para autoguardado.
     // "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontFamily": "JetBrains Mono",
     "window.zoomLevel": -1,
@@ -57,5 +57,7 @@
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     // Quiero que la terminal externa sea el Git Bash.
     "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
-    "editor.minimap.enabled": true
+    "editor.minimap.enabled": true,
+    // Que se sincornicen los keybindings.
+    "settingsSync.keybindingsPerPlatform": true
 }

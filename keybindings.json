@@ -255,5 +255,13 @@
     {
         "key": "ctrl+tab",
         "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
-    }
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-editor.action.clipboardCopyAction"
+    },
+    // {
+    //     "key": "ctrl+c",
+    //     "command": "references-view.copy"
+    // }
 ]
