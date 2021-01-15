@@ -157,5 +157,19 @@
     {
         "key": "ctrl+m ctrl+p",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "alt+k alt+t",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+e ctrl+t",
+        "command": "workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
     }
 ]

@@ -1,5 +1,6 @@
 {
     "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 90000, // 1 minuto y medio (1:30 minutos) para autoguardado.
     // "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontFamily": "JetBrains Mono",
     "window.zoomLevel": 0,
@@ -17,7 +18,6 @@
     "editor.minimap.renderCharacters": false,
     "editor.suggest.showStatusBar": true,
     "editor.wordBasedSuggestionsMode": "allDocuments",
-    "files.autoSaveDelay": 90000, // 1 minuto y medio (1:30 minutos) para autoguardado.
     "files.hotExit": "onExitAndWindowClose",
     "files.insertFinalNewline": true,
     "workbench.colorTheme": "BeardedTheme Vivid",
@@ -54,5 +54,7 @@
     /** Deshabilitar que Jupyter se inicie automáticamente. */
     "jupyter.disableJupyterAutoStart": false,
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // Quiero que la terminal externa sea el Git Bash.
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe"
 }
