@@ -191,5 +191,13 @@
     {
         "key": "ctrl+t ctrl+m",
         "command": "editor.action.toggleMinimap"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordPartLeft"
+    },
+    {
+        "key": "alt+delete",
+        "command": "deleteWordPartRight"
     }
 ]
