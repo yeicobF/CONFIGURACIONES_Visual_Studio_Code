@@ -187,5 +187,9 @@
     {
         "key": "ctrl+k ctrl+right",
         "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+t ctrl+m",
+        "command": "editor.action.toggleMinimap"
     }
 ]

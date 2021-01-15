@@ -56,5 +56,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     // Quiero que la terminal externa sea el Git Bash.
-    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe"
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    "editor.minimap.enabled": true
 }
