@@ -45,7 +45,7 @@
         "command": "workbench.action.splitEditorUp"
     },
     {
-        "key": "ctrl+shift+7",
+        "key": "ctrl+k ctrl+c",
         "command": "editor.action.addCommentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
