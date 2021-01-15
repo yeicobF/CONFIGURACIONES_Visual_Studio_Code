@@ -91,10 +91,6 @@
         "command": "workbench.action.closeSidebar"
     },
     {
-        "key": "ctrl+c",
-        "command": "editor.action.clipboardCopyAction"
-    },
-    {
         "key": "ctrl+insert",
         "command": "-editor.action.clipboardCopyAction"
     },
@@ -257,9 +253,14 @@
         "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
     },
     {
-        "key": "ctrl+c",
-        "command": "-editor.action.clipboardCopyAction"
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
     },
+    {
+        "key": "ctrl+c",
+        "command": "editor.action.clipboardCopyAction"
+    }
     // {
     //     "key": "ctrl+c",
     //     "command": "references-view.copy"
