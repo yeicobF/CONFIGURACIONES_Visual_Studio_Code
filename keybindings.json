@@ -274,6 +274,18 @@
         "key": "ctrl+oem_2",
         "command": "-editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+f ctrl+oem_plus",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+f ctrl+oem_minus",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+f ctrl+0",
+        "command": "editor.action.fontZoomReset"
     }
     // {
     //     "key": "ctrl+c",
