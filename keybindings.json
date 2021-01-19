@@ -286,6 +286,10 @@
     {
         "key": "ctrl+f ctrl+0",
         "command": "editor.action.fontZoomReset"
+    },
+    {
+        "key": "ctrl+f ctrl+t",
+        "command": "terminal.focus"
     }
     // {
     //     "key": "ctrl+c",
