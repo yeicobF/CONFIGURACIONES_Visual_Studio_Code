@@ -290,6 +290,14 @@
     {
         "key": "ctrl+f ctrl+t",
         "command": "terminal.focus"
+    },
+    {
+        "key": "ctrl+r ctrl+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-workbench.view.debug"
     }
     // {
     //     "key": "ctrl+c",
