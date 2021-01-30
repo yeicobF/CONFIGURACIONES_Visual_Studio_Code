@@ -41,7 +41,7 @@
     ],
     // Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass `terminal.integrated.commandsToSkipShell`, setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code).
     "terminal.integrated.allowChords": false,
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 12,
     // "terminal.integrated.fontWeight": "400"
     // Hace que el directorio de OmniSharp sea el último en donde se trabajó.
     "omnisharp.path": "latest",
@@ -63,4 +63,7 @@
     // Para que OmniSharp dure más hasta el Timeout. El default es un minuto.
     // Le pondré 2 minutos 30 segundos.
     "omnisharp.projectLoadTimeout": 150,
+    "discord.workspaceElapsedTime": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
 }
