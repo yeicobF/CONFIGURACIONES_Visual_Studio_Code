@@ -316,13 +316,34 @@
     {
         "key": "a",
         "command": "explorer.newFile",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     },
     {
         "key": "shift+a",
         "command": "explorer.newFolder",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        // "ctrl + shift + ñ"
+        "key": "ctrl+shift+oem_3",
+        "command": "workbench.action.terminal.newWithCwd",
+        // PARA ABRIR TERMINAL EN ACTUAL DIRECTORIO.
+        "args": {
+            // ABRIR TERMINAL EN DIRECTORIO DEL ARCHIVO. SOLO FUNCIONA EN ESTE ARCHIVO.
+            // FUENTE: https://code.visualstudio.com/docs/editor/variables-reference
+            // fileDirname: Abre en el directorio en donde se encuentra el archivo actual.
+            "cwd": "${fileDirname}"
+        }
     }
+    // {
+    //     "key": "ctrl+shift+w",
+    //     "command": "workbench.action.terminal.newInActiveWorkspace",
+    //     // PARA ABRIR TERMINAL EN ACTUAL DIRECTORIO.
+    //     "args": {
+    //         // ABRIR TERMINAL EN DIRECTORIO DEL ARCHIVO. SOLO FUNCIONA EN ESTE ARCHIVO.
+    //         "cwd": "${fileDirname}"
+    //     }
+    //}
     // {
     //     "key": "ctrl+c",
     //     "command": "references-view.copy"
