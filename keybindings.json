@@ -103,7 +103,7 @@
         "command": "workbench.action.toggleEditorWidths"
     },
     {
-        "key": "ctrl+f ctrl+e",
+        "key": "alt+f alt+e",
         "command": "workbench.files.action.focusFilesExplorer"
     },
     {
@@ -161,7 +161,16 @@
     {
         "key": "ctrl+e ctrl+t",
         "command": "workbench.action.terminal.openNativeConsole",
-        "when": "!terminalFocus"
+        "when": "!terminalFocus",
+        // PARA ABRIR TERMINAL EN ACTUAL DIRECTORIO.
+        "args": {
+            // ABRIR TERMINAL EN DIRECTORIO DEL ARCHIVO. SOLO FUNCIONA EN ESTE ARCHIVO.
+            // FUENTE: https://code.visualstudio.com/docs/editor/variables-reference
+            // fileDirname: Abre en el directorio en donde se encuentra el archivo actual.
+            // ! YA VI QUE EN CMD SÍ FUNCIONA BIEN. SUPONGO QUE EN POWERSHELL NO
+            // !    POR SÍMBOLOS COMO "[]", que requieren ` antes: "``[``]"
+            "cwd": "${fileDirname}"
+        }
     },
     {
         "key": "ctrl+shift+c",
@@ -332,8 +341,22 @@
             // ABRIR TERMINAL EN DIRECTORIO DEL ARCHIVO. SOLO FUNCIONA EN ESTE ARCHIVO.
             // FUENTE: https://code.visualstudio.com/docs/editor/variables-reference
             // fileDirname: Abre en el directorio en donde se encuentra el archivo actual.
+            // ! YA VI QUE EN CMD SÍ FUNCIONA BIEN. SUPONGO QUE EN POWERSHELL NO
+            // !    POR SÍMBOLOS COMO "[]", que requieren ` antes: "``[``]"
             "cwd": "${fileDirname}"
         }
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "alt+s alt+o",
+        "command": "snippetsCmd.openSnippet"
+    },
+    {
+        "key": "alt+s alt+n",
+        "command": "snippetsCmd.addSnippet"
     }
     // {
     //     "key": "ctrl+shift+w",

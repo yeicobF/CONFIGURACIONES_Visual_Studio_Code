@@ -54,7 +54,7 @@
     /** Deshabilitar que Jupyter se inicie automáticamente. */
     "jupyter.disableJupyterAutoStart": false,
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     // Quiero que la terminal externa sea el Git Bash.
     "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
     "editor.minimap.enabled": true,
@@ -65,5 +65,8 @@
     "omnisharp.projectLoadTimeout": 150,
     "discord.workspaceElapsedTime": true,
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
+    // PARA UTILIZAR ESTE COMPILADOR POR DEFAULT.
+    "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
+    // MODO PARA EL INTELLISENSE.
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
 }
