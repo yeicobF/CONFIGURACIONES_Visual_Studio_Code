@@ -3,7 +3,6 @@
     "files.autoSaveDelay": 60000, // 1 minuto y medio (1:30 minutos) para autoguardado.
     // "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontFamily": "JetBrains Mono",
-    "window.zoomLevel": 0,
     "editor.fontSize": 12,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.autoClosingQuotes": "always",
@@ -63,10 +62,13 @@
     // Para que OmniSharp dure más hasta el Timeout. El default es un minuto.
     // Le pondré 2 minutos 30 segundos.
     "omnisharp.projectLoadTimeout": 150,
-    "discord.workspaceElapsedTime": true,
+    // "discord.workspaceElapsedTime": true,
     "workbench.statusBar.visible": true,
     // PARA UTILIZAR ESTE COMPILADOR POR DEFAULT.
     "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
+    // Para poder utilizar paquetes de terceros.
+    "C_Cpp.vcpkg.enabled": true,
     // MODO PARA EL INTELLISENSE.
     "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+    "C_Cpp.default.includePath": null
 }
