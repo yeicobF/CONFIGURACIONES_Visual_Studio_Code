@@ -70,5 +70,17 @@
     "C_Cpp.vcpkg.enabled": true,
     // MODO PARA EL INTELLISENSE.
     "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
-    "C_Cpp.default.includePath": null
+    "C_Cpp.default.includePath": null,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "html.format.wrapLineLength": 80,
+    "workbench.activityBar.visible": false
+    // "html.format.indentInnerHtml": true,
+    // "html.format.indentHandlebars": true
 }
