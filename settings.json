@@ -79,8 +79,16 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
+    "editor.tabSize": 4,
     "html.format.wrapLineLength": 80,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "editor.insertSpaces": true,
+    // MODIFICAR ESPECÍFICAMENTE LAS CONFIGURACIONES DE HTML.
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    }
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true
 }
