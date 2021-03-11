@@ -27,6 +27,7 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableBell": true,
     "terminal.integrated.fontFamily": "JetBrains Mono",
+    // "terminal.integrated.fontFamily": "Consolas",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "git.fetchOnPull": true,
@@ -56,7 +57,7 @@
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     // Quiero que la terminal externa sea el Git Bash.
     "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     // Que se sincornicen los keybindings.
     "settingsSync.keybindingsPerPlatform": true,
     // Para que OmniSharp dure más hasta el Timeout. El default es un minuto.
@@ -87,7 +88,17 @@
     "[html]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
-        "editor.detectIndentation": false
+        // "editor.detectIndentation": false
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[cpp]": {
+        // PARA QUE NO SE CAMBIE EL FORMATO AL PEGAR ALGO.
+        // AGREGUÉ UN COMANDO PARA DARLE FORMATO A LA SELECCIÓN POR SI NO TIENE
+        // YA FORMATO: ALT + F + ALT + S (FORMAT SELECTION)
+        "editor.formatOnPaste": false
     }
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true

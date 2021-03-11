@@ -378,6 +378,16 @@
     {
         "key": "ctrl+shift+pageup",
         "command": "-workbench.action.moveEditorLeftInGroup"
+    },
+    {
+        "key": "alt+f alt+s",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+f",
+        "command": "-editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     }
     // {
     //     "key": "ctrl+shift+w",
