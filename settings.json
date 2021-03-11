@@ -66,11 +66,12 @@
     // "discord.workspaceElapsedTime": true,
     "workbench.statusBar.visible": true,
     // PARA UTILIZAR ESTE COMPILADOR POR DEFAULT.
-    "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
+    // "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
     // Para poder utilizar paquetes de terceros.
     "C_Cpp.vcpkg.enabled": true,
     // MODO PARA EL INTELLISENSE.
-    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+    "C_Cpp.default.intelliSenseMode": "msvc-x64",
     "C_Cpp.default.includePath": null,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -99,7 +100,9 @@
         // AGREGUÉ UN COMANDO PARA DARLE FORMATO A LA SELECCIÓN POR SI NO TIENE
         // YA FORMATO: ALT + F + ALT + S (FORMAT SELECTION)
         "editor.formatOnPaste": false
-    }
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true
 }
