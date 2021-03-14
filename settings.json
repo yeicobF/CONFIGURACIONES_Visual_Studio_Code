@@ -34,7 +34,12 @@
     "C_Cpp.vcFormat.indent.preserveComments": true,
     "C_Cpp.vcFormat.indent.preserveWithinParentheses": true,
     "C_Cpp.vcFormat.indent.caseLabels": true,
-    "workbench.editorAssociations": [],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
     "workbench.iconTheme": "vscode-icons",
     "editor.rulers": [
         80 //, 50],  // Mostrar un margen a los 80 caracteres.
@@ -65,7 +70,17 @@
     "omnisharp.projectLoadTimeout": 150,
     // "discord.workspaceElapsedTime": true,
     "workbench.statusBar.visible": true,
+    "[cpp]": {
+        // PARA QUE NO SE CAMBIE EL FORMATO AL PEGAR ALGO.
+        // AGREGUÉ UN COMANDO PARA DARLE FORMATO A LA SELECCIÓN POR SI NO TIENE
+        // YA FORMATO: ALT + F + ALT + S (FORMAT SELECTION)
+        "editor.formatOnPaste": false,
+    },
+    "C_Cpp.loggingLevel": "Debug",
     // PARA UTILIZAR ESTE COMPILADOR POR DEFAULT.
+    // https://code.visualstudio.com/docs/cpp/config-mingwSE
+    // SE RESOLVIÓ EL PROBLEMA DE QUE NO LO DETECTABA AGREGANDO EL COMPILADOR
+    //      A LA VARIABLE "Path" DE USUARIO.
     "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
     // "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
     // Para poder utilizar paquetes de terceros.
@@ -74,7 +89,9 @@
     "C_Cpp.default.intelliSenseMode": "msvc-x64",
     "C_Cpp.default.includePath": null,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
@@ -83,7 +100,6 @@
     },
     "editor.tabSize": 4,
     "html.format.wrapLineLength": 80,
-    "workbench.activityBar.visible": false,
     "editor.insertSpaces": true,
     // MODIFICAR ESPECÍFICAMENTE LAS CONFIGURACIONES DE HTML.
     "[html]": {
@@ -95,14 +111,10 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
     },
-    "[cpp]": {
-        // PARA QUE NO SE CAMBIE EL FORMATO AL PEGAR ALGO.
-        // AGREGUÉ UN COMANDO PARA DARLE FORMATO A LA SELECCIÓN POR SI NO TIENE
-        // YA FORMATO: ALT + F + ALT + S (FORMAT SELECTION)
-        "editor.formatOnPaste": false
-    },
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80
+    "editor.wordWrapColumn": 80,
+    "python.languageServer": "Pylance",
+    "workbench.activityBar.visible": false
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true
 }

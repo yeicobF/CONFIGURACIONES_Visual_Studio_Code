@@ -396,6 +396,26 @@
     {
         "key": "alt+z",
         "command": "-editor.action.toggleWordWrap"
+    },
+    {
+        "key": "ctrl+p ctrl+e",
+        "command": "workbench.action.pinEditor",
+        "when": "!activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+k shift+enter",
+        "command": "-workbench.action.pinEditor",
+        "when": "!activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+u ctrl+p",
+        "command": "workbench.action.unpinEditor",
+        "when": "activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+k shift+enter",
+        "command": "-workbench.action.unpinEditor",
+        "when": "activeEditorIsPinned"
     }
     // {
     //     "key": "ctrl+shift+w",
