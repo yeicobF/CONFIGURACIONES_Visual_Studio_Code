@@ -61,7 +61,9 @@
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     // Quiero que la terminal externa sea el Git Bash.
-    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    // "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    // Lunes, 15 MARZO 2021 <- Cambiè Git Bash por la nueva TERMINAL DE WINDOWS.
+    "terminal.external.windowsExec": "C:\\Users\\games_000.ASHJAC\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
     "editor.minimap.enabled": false,
     // Que se sincornicen los keybindings.
     "settingsSync.keybindingsPerPlatform": true,
