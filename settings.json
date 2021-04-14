@@ -4,7 +4,6 @@
     // "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 12,
-    "editor.multiCursorModifier": "ctrlCmd",
     "editor.autoClosingQuotes": "always",
     "editor.codeActionsOnSave": {},
     "editor.codeLensFontFamily": "JetBrains Mono",
@@ -42,7 +41,7 @@
     ],
     "workbench.iconTheme": "vscode-icons",
     "editor.rulers": [
-        80 //, 50],  // Mostrar un margen a los 80 caracteres.
+        80, 100,  // Mostrar un margen a los 80 caracteres.
     ],
     // Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass `terminal.integrated.commandsToSkipShell`, setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code).
     //"terminal.integrated.allowChords": false,
@@ -64,7 +63,6 @@
     // "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
     // Lunes, 15 MARZO 2021 <- Cambiè Git Bash por la nueva TERMINAL DE WINDOWS.
     "terminal.external.windowsExec": "C:\\Users\\games_000.ASHJAC\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
-    "editor.minimap.enabled": false,
     // Que se sincornicen los keybindings.
     "settingsSync.keybindingsPerPlatform": true,
     // Para que OmniSharp dure más hasta el Timeout. El default es un minuto.
@@ -113,10 +111,26 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
     },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
     "python.languageServer": "Pylance",
-    "workbench.activityBar.visible": false
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "snippets.snippetsLocation": "c:\\Users\\games_000.ASHJAC\\AppData\\Roaming\\Code\\User\\globalStorage\\tahabasri.snippets\\data.json",
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers",
+        "blocks"
+    ],
+    "gitlens.views.repositories.includeWorkingTree": true,
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true
 }

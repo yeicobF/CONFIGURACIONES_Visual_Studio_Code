@@ -416,6 +416,16 @@
         "key": "ctrl+k shift+enter",
         "command": "-workbench.action.unpinEditor",
         "when": "activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+t ctrl+p",
+        "command": "workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
     }
     // {
     //     "key": "ctrl+shift+w",
