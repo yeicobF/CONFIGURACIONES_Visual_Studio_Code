@@ -426,6 +426,14 @@
         "key": "ctrl+shift+m",
         "command": "-workbench.actions.view.problems",
         "when": "workbench.panel.markers.view.active"
+    },
+    {
+        "key": "alt+s alt+e",
+        "command": "snippetsExplorer.focus"
+    },
+    {
+        "key": "ctrl+t ctrl+s",
+        "command": "snippetsExplorer.toggleVisibility"
     }
     // {
     //     "key": "ctrl+shift+w",
