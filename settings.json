@@ -131,6 +131,16 @@
         "blocks"
     ],
     "gitlens.views.repositories.includeWorkingTree": true,
+    "workbench.activityBar.visible": false,
+    "markdownlint.config": {
+        "default": true,
+        // MD033 - Inline HTML <- Aliases: no-inline-html
+        // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+        // https://superuser.com/questions/1295409/how-do-i-change-markdownlint-settings-in-visual-studio-code
+        // No permite HTML en el MARKDOWN. La desactivo porque prefiero
+        // incluir.
+        "MD033": false,
+    }
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true
 }

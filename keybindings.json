@@ -432,8 +432,16 @@
         "command": "snippetsExplorer.focus"
     },
     {
-        "key": "ctrl+t ctrl+s",
-        "command": "snippetsExplorer.toggleVisibility"
+        "key": "alt+c alt+e",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "alt+g alt+f",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
     }
     // {
     //     "key": "ctrl+shift+w",
