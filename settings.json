@@ -123,7 +123,6 @@
     "editor.wordWrapColumn": 80,
     "python.languageServer": "Pylance",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.minimap.enabled": false,
     "snippets.snippetsLocation": "c:\\Users\\games_000.ASHJAC\\AppData\\Roaming\\Code\\User\\globalStorage\\tahabasri.snippets\\data.json",
     "gitlens.codeLens.scopes": [
         "document",
@@ -131,7 +130,6 @@
         "blocks"
     ],
     "gitlens.views.repositories.includeWorkingTree": true,
-    "workbench.activityBar.visible": false,
     "markdownlint.config": {
         "default": true,
         // MD033 - Inline HTML <- Aliases: no-inline-html
@@ -140,6 +138,30 @@
         // No permite HTML en el MARKDOWN. La desactivo porque prefiero
         // incluir.
         "MD033": false,
+    },
+    // RUTAS EN DONDE SE ENCUENTRAN LOS REPOSITORIOS git PARA EL PROJECT MANAGER
+    // que es una extensión.
+    "projectManager.git.baseFolders": [
+        "C:/[6SEM - FDM] PROYECTOS/1P/EjDosPantallasProducto/",
+        "C:/Users/games_000.ASHJAC/OneDrive - Universidad Autonoma de San Luis Potosi - UASLP/Documents/UASLP/6SEM [20-21B]",
+        "C:/Users/games_000.ASHJAC/AppData/Roaming/Code/User",
+        "C:/Users/games_000.ASHJAC/OneDrive - Universidad Autonoma de San Luis Potosi - UASLP/Documents/PROGRAMACIÓN",
+        "C:/laragon",
+    ],
+    "workbench.activityBar.visible": false,
+    "php.executablePath": "C:/laragon/bin/php/php-8.0.3-Win32-vs16-x64/php.exe",
+    "editor.minimap.enabled": false,
+    "[dart]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
     }
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true

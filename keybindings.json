@@ -442,6 +442,34 @@
     {
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+p alt+f",
+        "command": "projectsExplorerFavorites.focus"
+    },
+    {
+        "key": "alt+p alt+g",
+        "command": "projectsExplorerGit.focus"
+    },
+    {
+        "key": "alt+p alt+v",
+        "command": "projectsExplorerVSCode.focus"
+    },
+    {
+        "key": "alt+p alt+m",
+        "command": "workbench.view.extension.project-manager"
+    },
+    {
+        "key": "alt+m alt+t",
+        "command": "markdown.extension.toc.create"
+    },
+    {
+        "key": "alt+m alt+u",
+        "command": "markdown.extension.toc.update"
+    },
+    {
+        "key": "alt+m alt+n",
+        "command": "markdown.extension.toc.addSecNumbers"
     }
     // {
     //     "key": "ctrl+shift+w",
