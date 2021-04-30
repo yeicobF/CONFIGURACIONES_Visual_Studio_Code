@@ -157,12 +157,19 @@
         "editor.rulers": [
             80
         ],
-        "editor.selectionHighlight": false,
+        // CONFIGURACIONES PARA QUE SIRVA EL INTELLICODE EN DART.
+        "editor.selectionHighlight": true,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
-    }
+        "editor.wordBasedSuggestions": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.suggestOnTriggerCharacters": true
+    },
+    "markdown.extension.toc.updateOnSave": false
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true
-}
