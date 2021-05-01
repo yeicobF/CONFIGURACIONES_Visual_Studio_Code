@@ -147,8 +147,8 @@
         "C:/Users/games_000.ASHJAC/AppData/Roaming/Code/User",
         "C:/Users/games_000.ASHJAC/OneDrive - Universidad Autonoma de San Luis Potosi - UASLP/Documents/PROGRAMACIÓN",
         "C:/laragon",
+        "C:/6SEM_FDM_PROYECTOS",
     ],
-    "workbench.activityBar.visible": false,
     "php.executablePath": "C:/laragon/bin/php/php-8.0.3-Win32-vs16-x64/php.exe",
     "editor.minimap.enabled": false,
     "[dart]": {
@@ -160,16 +160,26 @@
         // CONFIGURACIONES PARA QUE SIRVA EL INTELLICODE EN DART.
         "editor.selectionHighlight": true,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.tabCompletion": "on",
         "editor.wordBasedSuggestions": true,
         "editor.quickSuggestions": {
             "other": true,
             "comments": true,
             "strings": true
         },
-        "editor.suggestOnTriggerCharacters": true
+        "editor.suggestOnTriggerCharacters": true,
     },
+    // DIRECTORIO EN DONDE SE ENCUENTRA EL SDK DE DART.
+    "dart.sdkPath": "C:/SDKs/flutter/bin/cache/dart-sdk/bin",
+    "dart.allowAnalytics": false,
+    "dart.enableSdkFormatter": true,
+    "dart.enableSnippets": true,
+    "dart.flutterHotReloadOnSave": "manual",
+    "dart.notifyAnalyzerErrors": true,
+    "dart.showMainCodeLens": true,
+    "dart.triggerSignatureHelpAutomatically": true,
     "markdown.extension.toc.updateOnSave": false
     // "html.format.indentInnerHtml": true,
     // "html.format.indentHandlebars": true
+}
