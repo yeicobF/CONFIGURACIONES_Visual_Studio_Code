@@ -1,185 +1,268 @@
 {
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 60000, // 1 minuto y medio (1:30 minutos) para autoguardado.
-    // "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 12,
-    "editor.autoClosingQuotes": "always",
-    "editor.codeActionsOnSave": {},
-    "editor.codeLensFontFamily": "JetBrains Mono",
-    "editor.comments.ignoreEmptyLines": false,
-    "editor.glyphMargin": false,
-    "editor.mouseWheelZoom": true,
-    "editor.renderLineHighlight": "all",
-    "editor.formatOnPaste": true,
-    "diffEditor.codeLens": true,
-    "editor.minimap.renderCharacters": false,
-    "editor.suggest.showStatusBar": true,
-    "editor.wordBasedSuggestionsMode": "allDocuments",
-    "files.hotExit": "onExitAndWindowClose",
-    "files.insertFinalNewline": true,
-    "workbench.colorTheme": "BeardedTheme Vivid",
-    "window.autoDetectHighContrast": false,
-    "window.menuBarVisibility": "toggle",
-    "terminal.integrated.confirmOnExit": true,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.enableBell": true,
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    // "terminal.integrated.fontFamily": "Consolas",
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "git.fetchOnPull": true,
-    "C_Cpp.vcFormat.indent.preserveComments": true,
-    "C_Cpp.vcFormat.indent.preserveWithinParentheses": true,
-    "C_Cpp.vcFormat.indent.caseLabels": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
-    "workbench.iconTheme": "vscode-icons",
-    "editor.rulers": [
-        80, 100,  // Mostrar un margen a los 80 caracteres.
-    ],
-    // Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass `terminal.integrated.commandsToSkipShell`, setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code).
-    //"terminal.integrated.allowChords": false,
-    "terminal.integrated.fontSize": 12,
-    // "terminal.integrated.fontWeight": "400"
-    // Hace que el directorio de OmniSharp sea el último en donde se trabajó.
-    "omnisharp.path": "latest",
-    /** PARA DESHABILITAR Jupyter con la extensión de Python, ya que funcionan
+  // Causes the debug view to automatically appear when a breakpoint is hit. This
+  // setting is global and not configurable per-language.
+  "debug.openDebug": "openOnDebugBreak",
+
+  // Mostrar archivos ocultos.
+  "path-intellisense.showHiddenFiles": true,
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 60000, // 1 minuto y medio (1:30 minutos) para
+  // No formatear al guardar.
+  "editor.formatOnSave": false,
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 15,
+  "editor.autoClosingQuotes": "always",
+  "editor.codeActionsOnSave": {},
+  "editor.codeLensFontFamily": "JetBrains Mono",
+  "editor.comments.ignoreEmptyLines": false,
+  "editor.glyphMargin": false,
+  "editor.mouseWheelZoom": true,
+  "editor.renderLineHighlight": "all",
+  "editor.formatOnPaste": true,
+  "diffEditor.codeLens": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.suggest.showStatusBar": true,
+  "editor.wordBasedSuggestionsMode": "allDocuments",
+  "files.hotExit": "onExitAndWindowClose",
+  "files.insertFinalNewline": true,
+  "workbench.colorTheme": "Bearded Theme Vivid Purple",
+  "window.autoDetectHighContrast": false,
+  "window.menuBarVisibility": "toggle",
+  "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  // "terminal.integrated.fontFamily": "Consolas",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "git.fetchOnPull": true,
+  "C_Cpp.vcFormat.indent.preserveComments": true,
+  "C_Cpp.vcFormat.indent.preserveWithinParentheses": true,
+  "C_Cpp.vcFormat.indent.caseLabels": true,
+  // "workbench.editorAssociations": [
+  //     {
+  //         "viewType": "jupyter.notebook.ipynb",
+  //         "filenamePattern": "*.ipynb"
+  //     }
+  // ],
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.rulers": [
+    80,
+    100 // Mostrar un margen a los 80 caracteres.
+  ],
+  // Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass `terminal.integrated.commandsToSkipShell`, setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code).
+  //"terminal.integrated.allowChords": false,
+  "terminal.integrated.fontSize": 12,
+  // "terminal.integrated.fontWeight": "400"
+  // Hace que el directorio de OmniSharp sea el último en donde se trabajó.
+  "omnisharp.path": "latest",
+  /** PARA DESHABILITAR Jupyter con la extensión de Python, ya que funcionan
         en conjunto. Al parecer no funciona.
         
         - FUENTE: disable jupyter editor in vscode #103526
             LINK: https: //github.com/microsoft/vscode/issues/103526*/
-    // "python.dataScience.useNotebookEditor": false,
-    /** Deshabilitar que Jupyter se inicie automáticamente. */
-    "jupyter.disableJupyterAutoStart": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    // Quiero que la terminal externa sea el Git Bash.
-    // "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
-    // Lunes, 15 MARZO 2021 <- Cambiè Git Bash por la nueva TERMINAL DE WINDOWS.
-    "terminal.external.windowsExec": "C:\\Users\\games_000.ASHJAC\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
-    // Que se sincornicen los keybindings.
-    "settingsSync.keybindingsPerPlatform": true,
-    // Para que OmniSharp dure más hasta el Timeout. El default es un minuto.
-    // Le pondré 2 minutos 30 segundos.
-    "omnisharp.projectLoadTimeout": 150,
-    // "discord.workspaceElapsedTime": true,
-    "workbench.statusBar.visible": true,
-    "[cpp]": {
-        // PARA QUE NO SE CAMBIE EL FORMATO AL PEGAR ALGO.
-        // AGREGUÉ UN COMANDO PARA DARLE FORMATO A LA SELECCIÓN POR SI NO TIENE
-        // YA FORMATO: ALT + F + ALT + S (FORMAT SELECTION)
-        "editor.formatOnPaste": false,
-    },
-    "C_Cpp.loggingLevel": "Debug",
-    // PARA UTILIZAR ESTE COMPILADOR POR DEFAULT.
-    // https://code.visualstudio.com/docs/cpp/config-mingwSE
-    // SE RESOLVIÓ EL PROBLEMA DE QUE NO LO DETECTABA AGREGANDO EL COMPILADOR
-    //      A LA VARIABLE "Path" DE USUARIO.
-    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
-    // "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
-    // Para poder utilizar paquetes de terceros.
-    "C_Cpp.vcpkg.enabled": true,
-    // MODO PARA EL INTELLISENSE.
-    "C_Cpp.default.intelliSenseMode": "msvc-x64",
-    "C_Cpp.default.includePath": null,
-    "editor.suggestSelection": "first",
-    // "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
-    // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "editor.tabSize": 4,
-    "html.format.wrapLineLength": 80,
-    "editor.insertSpaces": true,
-    // MODIFICAR ESPECÍFICAMENTE LAS CONFIGURACIONES DE HTML.
-    "[html]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        // "editor.detectIndentation": false
-    },
-    "[css]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-    },
-    "[javascriptreact]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-    },
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-    },
-    "editor.wordWrap": "wordWrapColumn",
+  // "python.dataScience.useNotebookEditor": false,
+  /** Deshabilitar que Jupyter se inicie automáticamente. */
+  "jupyter.disableJupyterAutoStart": false,
+  "workbench.startupEditor": "newUntitledFile",
+  // Quiero que la terminal externa sea el Git Bash.
+  // "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  // Lunes, 15 MARZO 2021 <- Cambié Git Bash por la nueva TERMINAL DE WINDOWS.
+  "terminal.external.windowsExec": "C:\\Users\\games_000\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+  // Que se sincornicen los keybindings.
+  "settingsSync.keybindingsPerPlatform": true,
+  // Para que OmniSharp dure más hasta el Timeout. El default es un minuto.
+  // Le pondré 2 minutos 30 segundos.
+  "omnisharp.projectLoadTimeout": 150,
+  "[cpp]": {
+    // PARA QUE NO SE CAMBIE EL FORMATO AL PEGAR ALGO.
+    // AGREGUÉ UN COMANDO PARA DARLE FORMATO A LA SELECCIÓN POR SI NO TIENE
+    // YA FORMATO: ALT + F + ALT + S (FORMAT SELECTION)
+    "editor.formatOnPaste": false
+  },
+  "C_Cpp.loggingLevel": "Debug",
+  // PARA UTILIZAR ESTE COMPILADOR POR DEFAULT.
+  // https://code.visualstudio.com/docs/cpp/config-mingwSE
+  // SE RESOLVIÓ EL PROBLEMA DE QUE NO LO DETECTABA AGREGANDO EL COMPILADOR
+  //      A LA VARIABLE "Path" DE USUARIO.
+  "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
+  // "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
+  // Para poder utilizar paquetes de terceros.
+  "C_Cpp.vcpkg.enabled": true,
+  "C_Cpp.default.intelliSenseMode": "msvc-x64",
+  "C_Cpp.default.includePath": null,
+  "editor.suggestSelection": "first",
+  // "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  // MODIFICAR ESPECÍFICAMENTE LAS CONFIGURACIONES DE HTML.
+  "[html]": {
+    "editor.tabSize": 2,
     "editor.wordWrapColumn": 80,
-    "python.languageServer": "Pylance",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "snippets.snippetsLocation": "c:\\Users\\games_000.ASHJAC\\AppData\\Roaming\\Code\\User\\globalStorage\\tahabasri.snippets\\data.json",
-    "gitlens.codeLens.scopes": [
-        "document",
-        "containers",
-        "blocks"
-    ],
-    "gitlens.views.repositories.includeWorkingTree": true,
-    "markdownlint.config": {
-        "default": true,
-        // MD033 - Inline HTML <- Aliases: no-inline-html
-        // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
-        // https://superuser.com/questions/1295409/how-do-i-change-markdownlint-settings-in-visual-studio-code
-        // No permite HTML en el MARKDOWN. La desactivo porque prefiero
-        // incluir.
-        "MD033": false,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "python.languageServer": "Pylance",
+  "snippets.snippetsLocation": "c:\\Users\\games_000.ASHJAC\\AppData\\Roaming\\Code\\User\\globalStorage\\tahabasri.snippets\\data.json",
+  "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
+  "gitlens.views.repositories.includeWorkingTree": true,
+  "markdownlint.config": {
+    "default": true,
+    // Listas ordenadas pueden ir en el orden: 1., 2., 3., ...
+    "MD029": false,
+    // MD033 - Inline HTML <- Aliases: no-inline-html
+    // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+    // https://superuser.com/questions/1295409/how-do-i-change-markdownlint-settings-in-visual-studio-code
+    // No permite HTML en el MARKDOWN. La desactivo porque prefiero
+    // incluir.
+    "MD033": false
+  },
+  // RUTAS EN DONDE SE ENCUENTRAN LOS REPOSITORIOS git PARA EL PROJECT MANAGER
+  // que es una extensión.
+  "projectManager.git.baseFolders": [
+    "C:/Users/games_000/OneDrive/Documentos/JACOB",
+    "C:/JACOB_APPS_NO_SPACIOS",
+    "C:/laragon"
+  ],
+  "php.executablePath": "C:/laragon/bin/php/php-8.0.3-Win32-vs16-x64/php.exe",
+
+  /* ---------------------------------- DART ---------------------------------- */
+
+  "[dart]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    // CONFIGURACIONES PARA QUE SIRVA EL INTELLICODE EN DART.
+    "editor.selectionHighlight": false,
+
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+
+    "editor.wordBasedSuggestions": true,
+
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
     },
-    // RUTAS EN DONDE SE ENCUENTRAN LOS REPOSITORIOS git PARA EL PROJECT MANAGER
-    // que es una extensión.
-    "projectManager.git.baseFolders": [
-        "C:/[6SEM - FDM] PROYECTOS/1P/EjDosPantallasProducto/",
-        "C:/Users/games_000.ASHJAC/OneDrive - Universidad Autonoma de San Luis Potosi - UASLP/Documents/UASLP/6SEM [20-21B]",
-        "C:/Users/games_000.ASHJAC/AppData/Roaming/Code/User",
-        "C:/Users/games_000.ASHJAC/OneDrive - Universidad Autonoma de San Luis Potosi - UASLP/Documents/PROGRAMACIÓN",
-        "C:/laragon",
-        "C:/6SEM_FDM_PROYECTOS",
-    ],
-    "php.executablePath": "C:/laragon/bin/php/php-8.0.3-Win32-vs16-x64/php.exe",
-    "editor.minimap.enabled": false,
-    "[dart]": {
-        "editor.formatOnSave": false,
-        "editor.formatOnType": false,
-        "editor.rulers": [
-            80
-        ],
-        // CONFIGURACIONES PARA QUE SIRVA EL INTELLICODE EN DART.
-        "editor.selectionHighlight": true,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "recentlyUsed",
-        "editor.tabCompletion": "on",
-        "editor.wordBasedSuggestions": true,
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": true,
-            "strings": true
-        },
-        "editor.suggestOnTriggerCharacters": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggest.showSnippets": true,
+    "editor.snippetSuggestions": "inline",
+    // https://dartcode.org/releases/v3-1/#preview-flutter-ui-guides
+    "editor.lineHeight": 17
+  },
+  // "dart.sdkPath": "C:/SDKs/flutter/bin/cache/dart-sdk/bin",
+  "dart.sdkPath": "C:/SDKs/flutter/bin/cache/dart-sdk/bin",
+  "dart.autoImportCompletions": false,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  // "dart.previewLsp": true,
+  "dart.flutterSelectDeviceWhenConnected": true,
+
+  "dart.allowAnalytics": false,
+  "dart.enableSdkFormatter": true,
+  "dart.enableSnippets": true,
+  "dart.flutterHotReloadOnSave": "manual",
+  "dart.notifyAnalyzerErrors": true,
+  "dart.showMainCodeLens": true,
+  "dart.triggerSignatureHelpAutomatically": true,
+
+  /* -------------------------------- FIN DART -------------------------------- */
+
+  "markdown.extension.toc.updateOnSave": false,
+  "projectManager.showProjectNameInStatusBar": true,
+  "dart.openDevTools": "flutter",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.minimap.enabled": false,
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  // "html.format.indentInnerHtml": true,
+  // "html.format.indentHandlebars": true
+
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.wordWrapColumn": 80
+  },
+  "terminal.integrated.profiles.windows": {
+    "C:\\WINDOWS\\System32\\cmd.exe (migrated)": {
+      "path": "C:\\WINDOWS\\System32\\cmd.exe",
+      "args": []
+    }
+  },
+  "editor.linkedEditing": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
     },
-    // DIRECTORIO EN DONDE SE ENCUENTRA EL SDK DE DART.
-    "dart.sdkPath": "C:/SDKs/flutter/bin/cache/dart-sdk/bin",
-    "dart.allowAnalytics": false,
-    "dart.enableSdkFormatter": true,
-    "dart.enableSnippets": true,
-    "dart.flutterHotReloadOnSave": "manual",
-    "dart.notifyAnalyzerErrors": true,
-    "dart.showMainCodeLens": true,
-    "dart.triggerSignatureHelpAutomatically": true,
-    "markdown.extension.toc.updateOnSave": false
-    // "html.format.indentInnerHtml": true,
-    // "html.format.indentHandlebars": true
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "vscode-mysql.enableTelemetry": false,
+  "prettier.proseWrap": "always" /* Text wrap en Markdown. */,
+  "prettier.trailingComma": "all",
+  "lifeline.clock.format": "dddd, h:mm:ss A",
+
+  /* -------------------------- HTML PARA FORMATTER -------------------------- */
+
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true,
+  "html.format.wrapAttributesIndentSize": 4,
+  "lit-html.format.enabled": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.endWithNewline": true,
+  "html.format.preserveNewLines": true,
+  "html.format.wrapLineLength": 80,
+  "formate.alignColon": false,
+  "formate.enable": false,
+  "sonarlint.disableTelemetry": true,
+  "sonarlint.rules": {
+    // No mostrar error cuando hayan líneas de código comentadas.
+    "Web:AvoidCommentedOutCodeCheck": {
+      "level": "off"
+    }
+  },
+  "GitLive.Issue tracker integration": "Disabled",
+  "tabnine.experimentalAutoImports": true,
+  "workbench.activityBar.visible": true
 }
