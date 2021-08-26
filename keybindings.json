@@ -492,16 +492,6 @@
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "alt+d",
-        "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "-editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
         "key": "alt+f alt+d",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
@@ -646,5 +636,35 @@
         "key": "ctrl+shift+l",
         "command": "-editor.action.selectHighlights",
         "when": "editorFocus"
+    },
+    {
+        "key": "alt+d alt+u",
+        "command": "cSpell.addWordToUserDictionary"
+    },
+    {
+        "key": "alt+d alt+f",
+        "command": "cSpell.addWordToFolderDictionary"
+    },
+    {
+        "key": "alt+d alt+w",
+        "command": "cSpell.addWordToWorkspaceDictionary"
+    },
+    {
+        "key": "alt+d alt+s",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+alt+d ctrl+alt+s",
+        "command": "cSpell.disableSpanish"
+    },
+    {
+        "key": "ctrl+alt+e ctrl+alt+s",
+        "command": "cSpell.enableSpanish"
     }
 ]

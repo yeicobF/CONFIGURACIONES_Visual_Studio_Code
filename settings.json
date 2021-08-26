@@ -12,6 +12,8 @@
   "editor.formatOnSave": false,
   // "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "editor.fontFamily": "JetBrains Mono",
+  // "editor.letterSpacing": 1.2,
+  // "editor.fontWeight": "400",
   "editor.fontSize": 15,
   "editor.autoClosingQuotes": "always",
   "editor.codeActionsOnSave": {},
@@ -30,7 +32,7 @@
   "workbench.colorTheme": "Bearded Theme Vivid Purple",
   "window.autoDetectHighContrast": false,
   "window.menuBarVisibility": "toggle",
-  "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.confirmOnExit": "always",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.enableBell": true,
@@ -130,7 +132,7 @@
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
   "python.languageServer": "Pylance",
-  "snippets.snippetsLocation": "c:\\Users\\games_000.ASHJAC\\AppData\\Roaming\\Code\\User\\globalStorage\\tahabasri.snippets\\data.json",
+  // "snippets.snippetsLocation": "c:\\Users\\games_000.ASHJAC\\AppData\\Roaming\\Code\\User\\globalStorage\\tahabasri.snippets\\data.json",
   "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
   "gitlens.views.repositories.includeWorkingTree": true,
   "markdownlint.config": {
@@ -264,5 +266,47 @@
   },
   "GitLive.Issue tracker integration": "Disabled",
   "tabnine.experimentalAutoImports": true,
-  "workbench.activityBar.visible": true
+  "workbench.activityBar.visible": false,
+  "discord.detailsEditing": "Editing - File total lines: {total_lines}",
+  "discord.detailsDebugging": "Debugging - Current line: {current_line}",
+  "discord.lowerDetailsDebugging": "Debugging: {current_line}",
+  "discord.lowerDetailsEditing": "Current line: {current_line}",
+  "discord.lowerDetailsNoWorkspaceFound": "{total_lines}",
+  "discord.removeRemoteRepository": true,
+  "editor.tokenColorCustomizations": {
+    "comments": "#cc6ec4"
+  },
+  "notebook.compactView": false,
+  "cSpell.userWords": [
+    "autocompletar",
+    "baseball",
+    "colab",
+    "computacionales",
+    "dataframe",
+    "didac",
+    "figma",
+    "gdrive",
+    "jacob",
+    "maquetaci",
+    "maquetación",
+    "mx",
+    "n",
+    "ncrona",
+    "recursando",
+    "s",
+    "scikit",
+    "síncrona",
+    "tic's",
+    "yeicobf",
+    "yoguel"
+  ],
+  "cSpell.enableFiletypes": [
+    "!haskell",
+    "sql"
+  ],
+  "workbench.editorAssociations": {
+    "*.pdf": "pdf.preview"
+  },
+  "cSpell.language": ",es"
+  // "synthwave84.brightness": "0.45"
 }
