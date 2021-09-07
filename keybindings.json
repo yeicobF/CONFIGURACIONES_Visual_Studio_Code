@@ -666,5 +666,13 @@
     {
         "key": "ctrl+alt+e ctrl+alt+s",
         "command": "cSpell.enableSpanish"
+    },
+    {
+        "key": "alt+j alt+m",
+        "command": "highlight-matching-tag.jumpToMatchingTag"
+    },
+    {
+        "key": "alt+t alt+s",
+        "command": "highlight-matching-tag.selectPairContents"
     }
 ]
