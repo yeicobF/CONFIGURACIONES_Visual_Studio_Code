@@ -510,7 +510,7 @@
         "command": "editor.action.addSelectionToPreviousFindMatch"
     },
     {
-        "key": "ctrl+alt+r ctrl+alt+f",
+        "key": "ctrl+alt+f ctrl+alt+r",
         "command": "revealFileInOS",
         "when": "!editorFocus"
     },
@@ -784,5 +784,13 @@
         "key": "ctrl+k ctrl+l",
         "command": "-editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+alt+f ctrl+alt+s",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+shift+oem_5",
+        "command": "-workbench.files.action.showActiveFileInExplorer"
     }
 ]
