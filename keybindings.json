@@ -510,7 +510,7 @@
         "command": "editor.action.addSelectionToPreviousFindMatch"
     },
     {
-        "key": "ctrl+alt+f ctrl+alt+d",
+        "key": "ctrl+alt+r ctrl+alt+f",
         "command": "revealFileInOS",
         "when": "!editorFocus"
     },
@@ -674,5 +674,115 @@
     {
         "key": "alt+t alt+s",
         "command": "highlight-matching-tag.selectPairContents"
+    },
+    {
+        "key": "alt+b alt+i",
+        "command": "editor.emmet.action.balanceIn"
+    },
+    {
+        "key": "alt+b alt+o",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "alt+n alt+i",
+        "command": "editor.emmet.action.selectNextItem"
+    },
+    {
+        "key": "alt+p alt+i",
+        "command": "editor.emmet.action.selectPrevItem"
+    },
+    {
+        "key": "alt+s alt+r",
+        "command": "cursorWordStartRightSelect"
+    },
+    {
+        "key": "alt+s alt+l",
+        "command": "cursorWordStartLeftSelect"
+    },
+    {
+        "key": "alt+r alt+t",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        "key": "alt+r alt+e",
+        "command": "workbench.action.restartExtensionHost"
+    },
+    {
+        "key": "alt+o alt+l",
+        "command": "editor.action.openLink"
+    },
+    {
+        "key": "unknown",
+        "command": "-editor.action.openLink"
+    },
+    {
+        "key": "alt+f alt+c",
+        "command": "editor.foldAllBlockComments",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+oem_2",
+        "command": "-editor.foldAllBlockComments",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+f alt+r",
+        "command": "editor.foldAllMarkerRegions",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+8",
+        "command": "-editor.foldAllMarkerRegions",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+f alt+a",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_4",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f alt+t",
+        "command": "editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+oem_4",
+        "command": "-editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "shift+alt+f shift+alt+a",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_6",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+f shift+alt+r",
+        "command": "editor.unfoldAllMarkerRegions",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+9",
+        "command": "-editor.unfoldAllMarkerRegions",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+t alt+f",
+        "command": "editor.toggleFold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "-editor.toggleFold",
+        "when": "editorTextFocus && foldingEnabled"
     }
 ]
