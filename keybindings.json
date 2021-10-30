@@ -792,5 +792,15 @@
     {
         "key": "ctrl+shift+oem_5",
         "command": "-workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+m ctrl+b",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
     }
 ]
