@@ -802,5 +802,23 @@
         "key": "ctrl+m ctrl+b",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+g",
+        "command": "editor.action.smartSelect.grow"
+    },
+    {
+        "key": "alt+s alt+i",
+        "command": "bracket-select.select-include",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "-bracket-select.select-include",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "cursorRedo"
     }
 ]
