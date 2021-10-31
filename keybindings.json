@@ -776,7 +776,7 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "alt+t alt+f",
+        "key": "ctrl+t ctrl+f",
         "command": "editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
     },
@@ -804,7 +804,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+g",
+        "key": "alt+g alt+s",
         "command": "editor.action.smartSelect.grow"
     },
     {
@@ -820,5 +820,9 @@
     {
         "key": "shift+alt+r",
         "command": "cursorRedo"
+    },
+    {
+        "key": "alt+l alt+e",
+        "command": "workbench.action.navigateToLastEditLocation"
     }
 ]
