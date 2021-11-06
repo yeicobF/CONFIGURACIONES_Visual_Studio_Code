@@ -142,12 +142,17 @@
   "javascript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.variableTypes.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "editor.wordWrap": "wordWrapColumn",
+  // "editor.wordWrap": "wordWrapColumn",
+  // bounded: Lines will wrap at the minimum of viewport and #editor.
+  // wordWrapColumn#.
+  "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 80,
   "python.languageServer": "Pylance",
+  "python.condaPath": "C:\\Users\\games_000.ASHJAC\\miniconda3\\python.exe",
   // "snippets.snippetsLocation": "c:\\Users\\games_000.ASHJAC\\AppData\\Roaming\\Code\\User\\globalStorage\\tahabasri.snippets\\data.json",
   "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
   "gitlens.views.repositories.includeWorkingTree": true,
+
   "markdownlint.config": {
     "default": true,
     // Listas ordenadas pueden ir en el orden: 1., 2., 3., ...
@@ -217,7 +222,6 @@
   "dart.openDevTools": "flutter",
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.minimap.enabled": false,
   "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
   // "html.format.indentInnerHtml": true,
@@ -238,6 +242,7 @@
   },
   "editor.linkedEditing": true,
   "[jsonc]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
@@ -245,7 +250,6 @@
       "strings": true
     },
     "editor.suggest.insertMode": "replace",
-    "gitlens.codeLens.scopes": ["document"],
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -269,6 +273,7 @@
   "html.format.endWithNewline": true,
   "html.format.preserveNewLines": true,
   "html.format.wrapLineLength": 80,
+  "html.completion.attributeDefaultValue": "doublequotes",
   "css.completion.completePropertyWithSemicolon": true,
   "css.lint.duplicateProperties": "warning",
   "css.lint.important": "warning",
@@ -318,6 +323,7 @@
     "beatae",
     "blanditiis",
     "brand",
+    "bullet",
     "colab",
     "COMBINADORES",
     "commodi",
@@ -340,6 +346,7 @@
     "deserunt",
     "didac",
     "dignissimos",
+    "dismiss",
     "distinctio",
     "divs",
     "dolor",
@@ -348,6 +355,7 @@
     "doloremque",
     "doloribus",
     "dolorum",
+    "dropwdown",
     "eaque",
     "eius",
     "element",
@@ -483,15 +491,19 @@
     "Spiderman",
     "strings",
     "subcadena",
+    "submenú",
     "subnivel",
     "subniveles",
     "sunt",
     "suscipit",
+    "Tablet",
     "tempora",
     "tempore",
     "temporibus",
     "tenetur",
     "tic's",
+    "titanic",
+    "toggle",
     "totam",
     "trello",
     "tweet",
@@ -534,5 +546,12 @@
   // "editor.tabCompletion": "on"
   // Mostrar sugerencias para comentarios JSDocs.
   "javascript.suggest.completeJSDocs": true,
-  "workbench.activityBar.visible": false
+  "notebook.consolidatedRunButton": true,
+  "editor.minimap.enabled": false,
+  // Versión 1.62.0
+  // "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.bracketPairsHorizontal": true,
+  // Mostrar sugerencia del código en la misma línea en lugar de hacerlo al
+  // presionar "ctrl+space"
+  "editor.suggest.preview": true
 }

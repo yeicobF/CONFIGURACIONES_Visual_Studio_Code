@@ -824,5 +824,21 @@
     {
         "key": "alt+l alt+e",
         "command": "workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "alt+g alt+r",
+        "command": "workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "alt+e alt+r",
+        "command": "workbench.action.moveEditorRightInGroup"
+    },
+    {
+        "key": "alt+g alt+l",
+        "command": "workbench.action.moveActiveEditorGroupLeft"
+    },
+    {
+        "key": "alt+e alt+l",
+        "command": "workbench.action.moveEditorLeftInGroup"
     }
 ]
