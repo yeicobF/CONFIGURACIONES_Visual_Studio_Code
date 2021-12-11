@@ -32,7 +32,7 @@
   "editor.wordBasedSuggestionsMode": "allDocuments",
   "files.hotExit": "onExitAndWindowClose",
   "files.insertFinalNewline": true,
-  "workbench.colorTheme": "Bearded Theme Vivid Black",
+  "workbench.colorTheme": "Bear Theme",
   "window.autoDetectHighContrast": false,
   "window.menuBarVisibility": "toggle",
   "terminal.integrated.confirmOnExit": "always",
@@ -54,7 +54,7 @@
   //         "filenamePattern": "*.ipynb"
   //     }
   // ],
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "editor.rulers": [
     80,
     100 // Mostrar un margen a los 80 caracteres.
@@ -257,6 +257,11 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true
   },
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "vscode-mysql.enableTelemetry": false,
   "prettier.proseWrap": "always" /* Text wrap en Markdown. */,
   "prettier.trailingComma": "all",
@@ -303,29 +308,38 @@
   "cSpell.userWords": [
     "accusamus",
     "accusantium",
+    "activadores",
     "adipisci",
     "adipisicing",
     "aliquam",
     "aliquid",
+    "Allows",
     "amet",
     "animi",
     "Antulio",
     "aperiam",
     "Architecto",
+    "asíncronamente",
     "asperiores",
     "aspernatur",
     "assumenda",
     "atque",
     "autem",
     "autocompletar",
+    "bars",
     "baseball",
     "basket",
     "beatae",
     "blanditiis",
     "brand",
     "bullet",
+    "buttons",
+    "card",
+    "checkbox",
+    "checkout",
     "colab",
     "COMBINADORES",
+    "commas",
     "commodi",
     "computacionales",
     "consectetur",
@@ -347,6 +361,7 @@
     "didac",
     "dignissimos",
     "dismiss",
+    "dispatch",
     "distinctio",
     "divs",
     "dolor",
@@ -356,14 +371,17 @@
     "doloribus",
     "dolorum",
     "dropwdown",
+    "duplicándolo",
     "eaque",
     "eius",
     "element",
     "eligendi",
     "elit",
     "Eminem",
+    "EMULATE",
     "enim",
     "eos",
+    "ERRMODE",
     "error",
     "esse",
     "est",
@@ -382,16 +400,22 @@
     "fugit",
     "gdrive",
     "Geneva",
+    "GETTERS",
+    "gunaldi",
     "harum",
     "headings",
     "hobbie",
     "hobbies",
+    "htdocs",
+    "iconscout",
     "illo",
     "illum",
     "impedit",
     "incidunt",
     "indentación",
+    "inicializadas",
     "inicializado",
+    "inicializar",
     "iniciarlizarlo",
     "inmediatemente",
     "inventore",
@@ -411,10 +435,16 @@
     "laborum",
     "laptop",
     "laudantium",
+    "logged",
+    "Logo",
     "lorem",
     "magnam",
     "Magni",
+    "magnifying",
+    "main",
+    "manejador",
     "manejarlo",
+    "manually",
     "maquetaci",
     "maquetación",
     "maquetaciones",
@@ -442,12 +472,20 @@
     "officiis",
     "omnis",
     "optio",
+    "Page",
+    "pages",
+    "Pages",
     "pariatur",
+    "peaceiris",
     "perferendis",
     "perspiciatis",
+    "Picsum",
     "placeat",
     "possimus",
+    "practicaphp",
     "praesentium",
+    "precargar",
+    "PRELOADING",
     "primary",
     "provident",
     "pseudoclase",
@@ -466,9 +504,11 @@
     "ratione",
     "recursando",
     "recusandae",
+    "REDIRECCIÓN",
     "reiciendis",
     "reinterpreta",
     "removerla",
+    "renderizado",
     "repellat",
     "repellendus",
     "reprehenderit",
@@ -480,15 +520,21 @@
     "scikit",
     "Screenshots",
     "secondary",
+    "secuencialmente",
     "self",
     "semánticamente",
     "sequi",
+    "setters",
     "síncrona",
+    "síncrono",
+    "Singleton",
     "sit",
+    "slide",
     "smartphone",
     "sobreescribimos",
     "soluta",
     "Spiderman",
+    "Starosa",
     "strings",
     "subcadena",
     "submenú",
@@ -501,6 +547,7 @@
     "tempore",
     "temporibus",
     "tenetur",
+    "this",
     "tic's",
     "titanic",
     "toggle",
@@ -525,15 +572,17 @@
     "voluptates",
     "Voluptatibus",
     "voluptatum",
-    "yeicobf"
+    "within",
+    "xhttp",
+    "yeicobf",
+    "yunus"
   ],
   "cSpell.enableFiletypes": ["!haskell", "sql"],
   "workbench.editorAssociations": {
     "*.pdf": "pdf.preview"
   },
   "cSpell.language": "es,es-ES",
-  // Colorización de brackets nativa de VSCode.
-  "editor.bracketPairColorization.enabled": true,
+
   "emmet.triggerExpansionOnTab": true,
   "editor.quickSuggestions": true,
   // Colorización de identado igual a la de brackets - nativa VSCode.
@@ -543,15 +592,69 @@
     "javascript": "html"
   },
   "javascript.suggest.completeFunctionCalls": true,
-  // "editor.tabCompletion": "on"
+  "editor.tabCompletion": "on",
   // Mostrar sugerencias para comentarios JSDocs.
   "javascript.suggest.completeJSDocs": true,
   "notebook.consolidatedRunButton": true,
   "editor.minimap.enabled": false,
+  // Colorización de brackets nativa de VSCode.
+  "editor.bracketPairColorization.enabled": true,
+  // Mostrar con más brillo la indentación actual.
+  "editor.guides.highlightActiveIndentation": true,
   // Versión 1.62.0
   // "editor.guides.bracketPairsHorizontal": "active",
   "editor.guides.bracketPairsHorizontal": true,
   // Mostrar sugerencia del código en la misma línea en lugar de hacerlo al
   // presionar "ctrl+space"
-  "editor.suggest.preview": true
+  "editor.suggest.preview": true,
+  "redhat.telemetry.enabled": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "Café / Ocre - #603b10",
+      "value": "#603b10"
+    }
+  ],
+  "rewrap.autoWrap.enabled": true,
+  "php.debug.executablePath": "C:/xampp/php/php.exe",
+  "vscode-edge-devtools.mirrorEdits": true,
+  "workbench.activityBar.visible": false,
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "editor.unicodeHighlight.includeComments": true
 }

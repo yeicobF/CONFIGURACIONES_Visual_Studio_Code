@@ -506,10 +506,6 @@
         "command": "dartFlutterOutline.focus"
     },
     {
-        "key": "alt+u",
-        "command": "editor.action.addSelectionToPreviousFindMatch"
-    },
-    {
         "key": "ctrl+alt+f ctrl+alt+r",
         "command": "revealFileInOS",
         "when": "!editorFocus"
@@ -672,7 +668,7 @@
         "command": "highlight-matching-tag.jumpToMatchingTag"
     },
     {
-        "key": "alt+t alt+s",
+        "key": "ctrl+t ctrl+s",
         "command": "highlight-matching-tag.selectPairContents"
     },
     {
@@ -840,5 +836,56 @@
     {
         "key": "alt+e alt+l",
         "command": "workbench.action.moveEditorLeftInGroup"
+    },
+    {
+        "key": "alt+t alt+w",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "tab",
+        "command": "-markdown.extension.onTabKey",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !suggestWidgetVisible && editorLangId == 'markdown'"
+    },
+    {
+        "key": "alt+i",
+        "command": "tabnine.accept-inline-suggestion",
+        "when": "tabnine.in-inline-suggestions && tabnine.inline-suggestion:enabled || tabnine.in-inline-suggestions && tabnine.snippet-suggestion:enabled"
+    },
+    {
+        "key": "tab",
+        "command": "-tabnine.accept-inline-suggestion",
+        "when": "tabnine.in-inline-suggestions && tabnine.inline-suggestion:enabled || tabnine.in-inline-suggestions && tabnine.snippet-suggestion:enabled"
+    },
+    {
+        "key": "alt+u alt+t",
+        "command": "editor.emmet.action.updateTag"
+    },
+    {
+        "key": "alt+t alt+c",
+        "command": "rewrap.toggleAutoWrap"
+    },
+    {
+        "key": "alt+t alt+l",
+        "command": "editor.action.moveCarretLeftAction"
+    },
+    {
+        "key": "alt+t alt+r",
+        "command": "editor.action.moveCarretRightAction"
+    },
+    {
+        "key": "alt+s alt+p",
+        "command": "editor.action.addSelectionToPreviousFindMatch"
+    },
+    {
+        "key": "ctrl+t ctrl+b",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "alt+p alt+d",
+        "command": "php-docblocker.trigger"
+    },
+    {
+        "key": "alt+s alt+t",
+        "command": "workbench.action.toggleSearchOnType"
     }
 ]
